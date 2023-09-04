@@ -1,7 +1,8 @@
 # Final Project for Computer Graphics (CSCI 371)
 
 I created physics-based portals in a digital environment by using recursive-rasterization techniques that users can pass through in order to traverse the environment. 
-I achieved the recursive portal rendering by using an incremental counter within OpenGl's stencil buffer and repeated matrix transforms.
+I achieved the recursive portal rendering by using an incremental counter within OpenGl's stencil buffer and repeated matrix transforms. The demo provides a simple
+environment with working physics so that the user can dynamically experience how the portals connect the world.
 The inspiration for this project was the game <a href="https://store.steampowered.com/app/400/Portal/">Portal</a> developed by Valve.
 
 I developped the code within `main.cpp`. In order to run, the program requires `cow.cpp` and `snail.cpp`, which are two files developped by Jim Bern, the professor of the course,
